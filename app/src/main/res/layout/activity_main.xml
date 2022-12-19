@@ -42,19 +42,22 @@
             android:id="@+id/option_twenty_percent"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="@string/amazing_service" />
+            android:text="@string/amazing_service"
+            android:textColor="@color/blue_light" />
 
         <RadioButton
             android:id="@+id/option_eighteen_percent"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="@string/good_service" />
+            android:text="@string/good_service"
+            android:textColor="@color/blue_light" />
 
         <RadioButton
             android:id="@+id/option_fifteen_percent"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="@string/ok_service" />
+            android:text="@string/ok_service"
+            android:textColor="@color/blue_light" />
     </RadioGroup>
 
     <Switch
@@ -63,6 +66,8 @@
         android:layout_height="48dp"
         android:checked="true"
         android:text="@string/round_up_tip"
+
+        android:textColor="@color/blue_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/tip_options"
         app:layout_constraintTop_toBottomOf="@id/tip_options" />
@@ -71,16 +76,19 @@
         android:id="@+id/calculate_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:shadowColor="#070707"
         android:text="@string/calculate"
-        app:layout_constraintTop_toBottomOf="@id/round_up_switch"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/round_up_switch" />
 
     <TextView
         android:id="@+id/tip_result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="239dp"
+        android:layout_height="68dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculate_button"
         tools:text="Tip Amount: $10" />
 

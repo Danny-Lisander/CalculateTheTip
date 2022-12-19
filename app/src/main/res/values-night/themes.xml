@@ -2,9 +2,16 @@
     <!-- Base application theme. -->
     <style name="Theme.CalculateTheTIp" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
-        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimary">@color/blue_dark</item>
+        <!-- Secondary brand color. -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/green_dark</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorButtonNormal">@color/blue_dark</item>
+        <item name="android:textColor">@color/blue_light</item>
+        <item name="android:textColorHint">@color/blue_light</item>
+        <item name="android:editTextColor">@color/blue_light</item>
+
         <!-- Customize your theme here. -->
     </style>
 </resources>
