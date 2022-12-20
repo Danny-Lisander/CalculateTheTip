@@ -1,9 +1,10 @@
 package com.dany.calculateTheTip
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.dany.calculateTheTip.databinding.ActivityMainBinding
 import java.text.NumberFormat
+
 
 class MainActivity : AppCompatActivity() {
 
